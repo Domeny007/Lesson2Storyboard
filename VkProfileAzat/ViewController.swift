@@ -65,18 +65,47 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var bottomScrollView: UIScrollView!
     
+    
+    
 
     override func viewDidLoad() {
         
         super.viewDidLoad()
-                
         
+        workingWithImages()
+        
+        workingWithScrollViews()
+        
+        workingWithButtons()
+        
+        workingWithLabels()
+        
+    }
+    
+    func workingWithLabels() {
+        myNameLabel.text = getRandomName()
+        
+        onlineLabel.text = getRandomOnlineOrNotState()
+        onlineLabel.textColor = UIColor.lightGray
+        ageCityLabel.text = getRandomAgeAndCity()
+        ageCityLabel.textColor = UIColor.lightGray
+        
+        
+        numberOfPhotoLabel.text = String(randomNumberForPhoto) + pixString
+        numberOfPhotoLabel.textColor = UIColor.lightGray
+        
+
+    }
+    
+    func workingWithScrollViews() {
         scrollViewOnTop.layer.borderWidth = 0.5
         scrollViewOnTop.layer.borderColor = UIColor.lightGray.cgColor
         
         bottomScrollView.layer.borderWidth = 0.5
         bottomScrollView.layer.borderColor = UIColor.white.cgColor
-        
+    }
+    
+    func workingWithImages() {
         generalImage.layer.borderWidth=1.0
         generalImage.layer.masksToBounds = false
         generalImage.layer.borderColor = UIColor.white.cgColor
@@ -93,18 +122,12 @@ class ViewController: UIViewController {
         
         fourthImageInSV.image = UIImage(named: "Image\(arc4random_uniform(4) + 1).png")
         
-        myNameLabel.text = getRandomName()
+
+    }
+    
+    func workingWithButtons() {
         
-        onlineLabel.text = getRandomOnlineOrNotState()
-        onlineLabel.textColor = UIColor.lightGray
-        ageCityLabel.text = getRandomAgeAndCity()
-        ageCityLabel.textColor = UIColor.lightGray
-        
-        
-        numberOfPhotoLabel.text = String(randomNumberForPhoto) + pixString
-        numberOfPhotoLabel.textColor = UIColor.lightGray
-        
-               friendsButton.setAttributedTitle(friendsAttributedString, for: .normal)
+        friendsButton.setAttributedTitle(friendsAttributedString, for: .normal)
         friendsButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: sizeNum)
         friendsButton.titleLabel?.textAlignment = NSTextAlignment.center
         
@@ -115,7 +138,7 @@ class ViewController: UIViewController {
         groupsButton.setAttributedTitle(groupsAttributedString, for: .normal)
         groupsButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: sizeNum)
         groupsButton.titleLabel?.textAlignment = NSTextAlignment.center
-
+        
         photoButton.setAttributedTitle(photoAttributedString, for: .normal)
         photoButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: sizeNum)
         photoButton.titleLabel?.textAlignment = NSTextAlignment.center
@@ -137,8 +160,8 @@ class ViewController: UIViewController {
         fileButton.titleLabel?.textAlignment = NSTextAlignment.center
         
     }
-}
 
+}
 
 let sizeNum:CGFloat = 12
 
@@ -196,6 +219,7 @@ func getRandomAgeAndCity() -> String {
     let randomState = tempArray.remove(at: Int(randomStateNumber))
     return randomState
 }
+
 
 
 
