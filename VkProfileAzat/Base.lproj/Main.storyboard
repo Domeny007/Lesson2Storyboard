@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3" translatesAutoresizingMaskIntoConstraints="NO" id="vtN-gd-wf0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3" translatesAutoresizingMaskIntoConstraints="NO" id="vtN-gd-wf0">
                                 <rect key="frame" x="16" y="72" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -48,15 +48,15 @@
                                 <rect key="frame" x="-4" y="208" width="682" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="zpR-XZ-eNl">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="zpR-XZ-eNl">
                                         <rect key="frame" x="0.0" y="27" width="139" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="g27-2a-7pk">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="g27-2a-7pk">
                                         <rect key="frame" x="147" y="27" width="139" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3" translatesAutoresizingMaskIntoConstraints="NO" id="ZNu-RI-Qls">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3" translatesAutoresizingMaskIntoConstraints="NO" id="ZNu-RI-Qls">
                                         <rect key="frame" x="294" y="27" width="139" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -65,8 +65,8 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKy-j4-b9d">
-                                        <rect key="frame" x="-36" y="-9" width="368" height="43"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <rect key="frame" x="0.0" y="-9" width="331" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
                                         <state key="normal" image="arrow"/>
                                     </button>
@@ -104,29 +104,6 @@
                                 <rect key="frame" x="-10" y="154" width="688" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KER-CL-qI7">
-                                        <rect key="frame" x="150" y="12" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <state key="normal">
-                                            <attributedString key="attributedTitle">
-                                                <fragment>
-                                                    <string key="content">100
-</string>
-                                                    <attributes>
-                                                        <font key="NSFont" metaFont="system" size="15"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                                <fragment content="групп">
-                                                    <attributes>
-                                                        <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                        </state>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LPJ-wJ-ECY">
                                         <rect key="frame" x="204" y="12" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -302,6 +279,29 @@ Cg
                                             </attributedString>
                                         </state>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KER-CL-qI7">
+                                        <rect key="frame" x="150" y="12" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">100
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="групп">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <inset key="scrollIndicatorInsets" minX="9" minY="0.0" maxX="0.0" maxY="0.0"/>
                             </scrollView>
@@ -317,8 +317,8 @@ Cg
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Azat" id="vOX-Xe-KPh">
-                        <barButtonItem key="leftBarButtonItem" image="burger" id="G4R-Lz-0ds">
-                            <inset key="imageInsets" minX="-18" minY="40" maxX="110" maxY="40"/>
+                        <barButtonItem key="leftBarButtonItem" image="burger" id="u50-HC-4Mu">
+                            <inset key="imageInsets" minX="0.0" minY="20" maxX="50" maxY="11"/>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="dots" id="tgy-M2-QfT">
                             <inset key="imageInsets" minX="46" minY="27" maxX="7" maxY="20"/>
@@ -357,7 +357,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="410.625" y="10"/>
+            <point key="canvasLocation" x="410.625" y="9.5070422535211261"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="H0o-hA-9yQ">
@@ -382,7 +382,7 @@ Cg
         <image name="Image3" width="530" height="530"/>
         <image name="Image4" width="543" height="429"/>
         <image name="arrow" width="500" height="100"/>
-        <image name="burger" width="128" height="128"/>
+        <image name="burger" width="74" height="47"/>
         <image name="dots" width="75" height="75"/>
         <image name="info button" width="80" height="78"/>
     </resources>
